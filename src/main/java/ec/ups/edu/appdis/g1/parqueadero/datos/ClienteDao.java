@@ -1,5 +1,6 @@
 package ec.ups.edu.appdis.g1.parqueadero.datos;
 
+
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -73,6 +74,6 @@ public class ClienteDao {
 		ps.executeUpdate();
 		ps.close();
 		return true;
-	}
 
 }
+	}

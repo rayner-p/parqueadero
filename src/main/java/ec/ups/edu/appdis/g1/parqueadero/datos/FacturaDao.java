@@ -1,5 +1,6 @@
 package ec.ups.edu.appdis.g1.parqueadero.datos;
 
+import ec.ups.edu.appdis.g1.parqueadero.modelo.Factura;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
@@ -7,7 +8,7 @@ import java.sql.SQLException;
 import javax.ejb.Stateless;
 import javax.inject.Inject;
 
-import ec.ups.edu.appdis.g1.parqueadero.modelo.Factura;
+
 @Stateless
 public class FacturaDao {
 	
@@ -32,7 +33,6 @@ public class FacturaDao {
 		
 		
 		return true;
-		
 	}
 	public boolean update (Factura factura) {
 		return false;
