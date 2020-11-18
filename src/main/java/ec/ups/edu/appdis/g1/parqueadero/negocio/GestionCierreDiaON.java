@@ -4,15 +4,9 @@ import java.util.Date;
 import java.util.List;
 
 
-import javax.ejb.Stateless;
-
 import ec.ups.edu.appdis.g1.parqueadero.modelo.CierreDia;
-@Stateless
+
 public class GestionCierreDiaON {
-	
-
-
-
 	public boolean registrarCierre(CierreDia cierre) {
 		return true;
 	}
@@ -29,4 +23,3 @@ public class GestionCierreDiaON {
 		return null;
 	}
 }
-

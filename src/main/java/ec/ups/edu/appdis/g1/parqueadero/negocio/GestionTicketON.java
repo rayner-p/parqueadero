@@ -12,10 +12,6 @@ public class GestionTicketON {
 	@Inject
 	private ClienteDao con;
 	
-	public GestionTicketON() {
-		
-	}
-
 	public boolean registrarIngreso (Ticket ticket) {
 		return true;
 	}
