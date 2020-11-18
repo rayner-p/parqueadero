@@ -1,5 +1,6 @@
 package ec.ups.edu.appdis.g1.parqueadero.negocio;
 
+
 import javax.ejb.Stateless;
 import javax.inject.Inject;
 
@@ -14,7 +15,7 @@ public class GestionTicketON {
 	public GestionTicketON() {
 		
 	}
-	
+
 	public boolean registrarIngreso (Ticket ticket) {
 		return true;
 	}
